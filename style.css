@@ -1,0 +1,88 @@
+/* basic styling */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    font-family:'Poppins', sans-serif;
+    
+
+}
+
+nav{
+    position: sticky;
+    top:0;
+}
+
+.navbar-items a:hover{
+    border-bottom: 1px solid blue;
+        /* font-size: large; */
+        color: white;
+        text-shadow: 2px 2px 4px blue;
+}
+
+    
+
+/* navbar */
+.navbar-container{
+    background-color:#333;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 5px 8px 15px rgba(0,0,0,0.5);
+    
+    
+}
+
+
+.navbar-header{
+    color: white;
+    font-size: 25px;
+}
+.navbar-header span{
+    color: yellow;
+    font-size: smaller;
+}
+
+
+.card img {
+    margin: 10px;
+    border: 3px solid gainsboro;
+    border-bottom: 3px outset gray;
+    box-shadow: 5px 8px 15px rgba(0, 0, 0, 0.5);
+    height:200px;
+    width: 400px;
+    /* opacity: 0.1; */
+
+}
+
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+
+}
+.card img:hover{
+    transition: 0.5s;
+    border: none;
+    border-radius: 10px;
+}
+
+footer {
+    background-color:#333;
+    color: white;
+    height: 100px;
+    /* position: sticky;
+    bottom: 0; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
