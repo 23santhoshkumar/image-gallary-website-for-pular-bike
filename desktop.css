@@ -1,0 +1,55 @@
+@media (min-width:610px) {
+
+    
+
+    .navbar-items ul li{
+        display: inline;
+        margin-right:15px ;  
+    
+    }
+    
+    .navbar-items a{
+        color: white;
+        font-size: 16px;
+    }
+    
+    
+    .navbar-button{
+        display: none;
+    }
+    
+    /* drop down content */
+    .content{
+        
+        right: 100px;
+        width: 180px;
+        
+        
+    
+    }
+
+    h2{
+        color: white;
+        font-size: 60px;
+        display: flex;
+        justify-content: center;
+        /* align-items: center; */
+    }
+    h2 span{
+        color: blue;
+        text-transform: lowercase;
+    }
+
+    
+
+    
+    
+    
+    
+    }
+    @media (max-width:757px) {
+        h2{
+            font-size: 35px;
+        }
+        
+    }

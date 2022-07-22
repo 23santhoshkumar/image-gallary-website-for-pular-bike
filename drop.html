@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://1000logos.net/wp-content/uploads/2020/06/Bajaj-Logo.png" type="image/png"/>
+    <title>Document</title>
+    <style>
+        .btn{
+            background-color: #333;
+            padding: 15px;
+            color: white;
+            cursor: pointer;
+            font-size: 25px;
+            border: none;
+        }
+        .drop{
+            position: relative;
+            top:200px;
+            left:200px
+        }
+        .content{
+            position: absolute;
+            /* display: none; */
+            font-size: 18px;
+            background-color: white;
+            min-width: 200px;
+            box-shadow: 5px 8px 15px rgba(0,0,0,0.2);
+            display: none;
+        }
+        .content a{
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+        a:hover{
+            background-color: #333;
+            color: white;
+        }
+        .drop:hover .content{
+            display: block;
+        }
+        .drop:hover .btn{
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <div class="drop">
+        <button class="btn">categories</button>
+        <div class="content">
+            <a href="#">PULSAR</a>
+            <a href="#">NS</a>
+            <a href="#">APACHE</a>
+            <a href="#">R15</a>
+        </div>
+    </div>
+</body>
+</html>
